@@ -8,9 +8,8 @@ some basic statistics on every look-up and displays them.
 
 To Compile:
 ===========
-To compile using g++:
+To compile using g++::
 
-::
 	g++ -o dnscache -c dnscache.cc
 
 This will generate a file called 'dnscache', but it is not executable because it doesn't have a main.
@@ -20,5 +19,5 @@ TODO:
 =====
 
 - Add a basic test to show what the code does.
-- Add an SCONSTRUCT file to make compilation easier.
+- Fix SCONSTRUCT file to make compilation easier.
  
